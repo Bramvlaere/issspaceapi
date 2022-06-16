@@ -1,0 +1,12 @@
+{% extends 'base.html' %} {% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col text-center">
+            <h1 class="in-space-intro" style="color: rgb(0, 0, 0);">Click the button to see how many people are in space right now!</h1><br>
+            <form class="in-space-form" action="/inspace" method="post" accept-charset="utf-8">
+                <button class="btn btn-success" type="submit">How Many People are in Space?</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends 'base.html' %} {% block content %}
+<div>
+    <div class="col text-center">
+        <h1 style="color: rgb(0, 0, 0);">Find the ISS right now!</h1><br>
+        <form id="iss_form" class="find" action="/find_iss" method="post" accept-charset="utf-8">
+            <button class="btn" type="submit">Find ISS</button>
+        </form>
+    </div>
+
+
+    {% endblock %}
